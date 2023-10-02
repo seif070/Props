@@ -2,9 +2,9 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 
 
-function Player({player}) {
+function Player({min}) {
 
-  const { name, team, nationality, jerseyNumber, age, imageUrl } = player;
+const { name, team, nationality, jerseyNumber, age, imageUrl } = min;
 
   return (
 
@@ -26,5 +26,5 @@ function Player({player}) {
       </Card>
     );
   };
-  
+
   export default Player;

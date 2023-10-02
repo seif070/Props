@@ -1,20 +1,19 @@
 import React from "react";
-import Player from "./player";
-import PlayersData from "./Players";
 
+import player from "./player"
+import Player from './Players'
 
 function Playerslist () {
   return (
 
-      <div>
-        {Player.map((player, index) => (
-          <PlayersData player={player} 
+      <div style={{display:'flex',justifyContent:'space-around'}}>
+        {player.map((el) => (
+          <Player min={el} 
           />
 ))}
           </div>
 
     );
   };
-  
+
   export default Playerslist;
-  

@@ -1,15 +1,15 @@
 import React from "react";
 
 import './App.css';
+import Playerslist from "./Components/Playerslist";
 
-import PlayersList from "./Components/Playerslist";
 
 
 function App() {
   return (
     <div className="App">
  <h1>Football Players</h1>
-      <PlayersList /> 
+      <Playerslist /> 
 
 
 
