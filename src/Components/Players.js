@@ -2,9 +2,9 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 
 
-function Player(props) {
+function Player({player}) {
 
-  const { name, team, nationality, jerseyNumber, age, imageUrl } = props;
+  const { name, team, nationality, jerseyNumber, age, imageUrl } = player;
 
   return (
 

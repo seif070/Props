@@ -2,12 +2,13 @@ import React from "react";
 import Player from "./player";
 import PlayersData from "./Players";
 
-function Playerslist() {
+
+function Playerslist () {
   return (
 
       <div>
-        {PlayersData.map((player, index) => (
-          <Player key={index} {...player} 
+        {Player.map((player, index) => (
+          <PlayersData player={player} 
           />
 ))}
           </div>
